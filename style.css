@@ -8,11 +8,41 @@ html {
     box-sizing: inherit;
 }
 
+* {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
 .section1,
 .section2,
 .section3,
 .section4 {
+    display: flex;
     border: 3px solid red;
+}
+
+.section1 {
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+    color: white;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 
