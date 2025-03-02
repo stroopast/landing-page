@@ -25,6 +25,7 @@ html {
 .section1 {
     flex-direction: column;
     background-color: #1F2937;
+    padding-bottom: 100px;
 }
 
 .header {
@@ -56,12 +57,14 @@ html {
 .hero-main-text {
     font-size: 48px;
     margin: 0px;
+    padding: 0px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
 .hero-secondary-text {
     font-size: 18px;
+    padding: 0px;
     color: #E5E7EB;
 }
 
@@ -72,8 +75,8 @@ a {
 }
 
 .text-description {
-    width: 450px;
-    height: 450px;
+    width: 420px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -82,11 +85,13 @@ a {
 .sign-up-btn {
     color: white;
     background-color: #3882F6;
-    width: 150px;
-    height: 50px;
-    padding: 15px;
     text-align: center;
-    border-radius: 25px;
+    font-weight: 500;
+    font-size: 15px;
+    width: 130px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 .image-placeholder {
@@ -96,6 +101,8 @@ a {
     background-color: gray;
     align-self: center;
 }
+
+/* This are from section 2 */
 
 
 
